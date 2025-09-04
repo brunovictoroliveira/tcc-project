@@ -1,0 +1,36 @@
+.ExpandButton {
+    width: 45px;
+    height: 45px;
+    background-color: var(--purple);
+    background-image: url("/public/assets/icons/expand_icon.svg");
+    background-size: 55% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin: 4px;
+  }
+  
+  .EditButton {
+    width: 45px;
+    height: 45px;
+    background-color: var(--blue);
+    background-image: url("/public/assets/icons/edit_icon.svg");
+    background-size: 55% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin: 4px;
+  }
+  
+  .DeleteButton {
+    width: 45px;
+    height: 45px;
+    background-color: var(--red);
+    background-image: url("/public/assets/icons/delete_icon.svg");
+    background-size: 55% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin: 4px;
+  }
+  

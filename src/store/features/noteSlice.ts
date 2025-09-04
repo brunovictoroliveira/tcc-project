@@ -18,20 +18,18 @@ const API_URL = "http://localhost:3001/notes";
 
 // --- THUNKS ASSÍNCRONOS COM TIPAGEM E TRATAMENTO DE ERRO ---
 
-export const fetchNotes = createAsyncThunk<Note[]>(
+export const fetchNotes = createAsyncThunk<Note[], string>(
   "notes/fetchNotes",
-  async (_, { rejectWithValue }) => {
+  async (customerId, { rejectWithValue }) => {
     try {
-      const response = await fetch(API_URL);
-      if (!response.ok) throw new Error("Falha ao carregar as anotações.");
+      const response = await fetch(
+        `http://localhost:3001/notes?customerId=${customerId}`
+      );
+      if (!response.ok) throw new Error("Erro ao buscar anotações.");
       return await response.json();
     } catch (error: unknown) {
-      if (error instanceof Error) {
-        return rejectWithValue(error.message);
-      }
-      return rejectWithValue(
-        "Ocorreu um erro inesperado ao carregar os clientes."
-      );
+      if (error instanceof Error) return rejectWithValue(error.message);
+      return rejectWithValue("Erro inesperado ao buscar anotações.");
     }
   }
 );

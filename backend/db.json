@@ -4,15 +4,13 @@
       "id": "1",
       "name": "Bruno Silva",
       "phone": "123-456-7890",
-      "email": "bruno.silva@example.com",
-      "password": "123456"
+      "email": "bruno.silva@example.com"
     },
     {
       "id": "2",
       "name": "Ana Pereira",
       "phone": "987-654-3210",
-      "email": "ana.pereira@example.com",
-      "password": "abcdef"
+      "email": "ana.pereira@example.com"
     },
     {
       "id": "3",
@@ -166,6 +164,15 @@
       "date": "2025-04-02",
       "title": "Configuração do Sistema",
       "note": "Ajustamos o ambiente de desenvolvimento."
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@example.com",
+      "phone": "21987654321",
+      "password": "123456"
     }
   ]
 }

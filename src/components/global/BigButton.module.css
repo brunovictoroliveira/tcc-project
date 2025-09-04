@@ -1,0 +1,42 @@
+.button {
+  background-color: var(--blue);
+  color: var(--white);
+  width: 310px;
+  height: 57px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.newCostumer {
+  background-image: url('/public/assets/icons/newcostumer_icon.svg');
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.newNote {
+  background-image: url('/public/assets/icons/edit_icon.svg');
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.save {
+  background-image: url('/public/assets/icons/save_icon.svg');
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.button span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 5px;
+}

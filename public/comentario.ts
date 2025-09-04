@@ -1,9 +1,8 @@
 // Próximas tarefas:
 
-// Obs.: Redux e API configurados
-
-// 001 - Implementar UI em todos os componentes.
-// 002 - Adicionar lib para encapsular/criptografar senhas.
+// 001 - Implementar UI em todos os componentes. [ok]
+// 002 - Acertar todas as rotas do app.
+// 003 - Adicionar lib para encapsular/criptografar senhas.
 
 // ### Projeto original ###
 

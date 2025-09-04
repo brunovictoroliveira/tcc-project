@@ -1,0 +1,36 @@
+.title {
+  font-size: 2.5rem;
+  color: var(--yellow);
+  padding-bottom: 30px;
+}
+
+.customersList {
+  height: 40vh;
+  width: 100vw;
+    /* width: 100%; */
+  margin: 1.6rem 0;
+
+  /* implementação de rolagem */
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  background-color: var(--darkgray);
+  scroll-behavior: smooth;
+}
+
+.centralize {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* tamanho da view */
+  height: 88vh;
+}
+
+.centralize .buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  gap: 0.6rem;
+}

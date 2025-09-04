@@ -1,0 +1,27 @@
+.form_control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form_control label {
+  margin-bottom: 10px;
+}
+
+.form_control input {
+  width: 310px;
+  height: 57px;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3rem;
+  background-color: var(--darkgrey);
+  color: var(--yellow);
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: var(--yellow);
+  outline: none;
+}
+
+.form_control input:focus {
+  border-color: var(--mustard);
+}
